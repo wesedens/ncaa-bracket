@@ -1,0 +1,761 @@
+{% extends './layouts/default.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+ <title> 2012 NCAA Men's Basketball Tournament </title>
+
+{% block content %}
+<!--body class="bracket standings light-blue"-->
+
+    <ul class="menu">
+        <li><a href="{{path.index}}">Home</a></li>
+        <li><a href="{{path.about}}">About</a></li>
+    </ul>
+    <h1>{{title}}</h1>
+
+    <div id="header-table">
+        <!-- Table Dates -->
+        <table class="gridtable">
+            <tr>
+                <th class="round_1 current"> 1st ROUND </th>
+                <th class="round_2 "> 2nd ROUND </th>
+                <th class="round_3"> SWEET 16 </th>
+                <th class="round_4"> ELITE EIGHT </th>
+                <th class="round5"> FINAL FOUR </th>
+                <th class="round_6"> CHAMPION </th>
+                <th class="round_5"> FINAL FOUR </th>
+                <th class="round_4"> ELITE EIGHT </th>
+                <th class="round_3"> SWEET 16 </th>
+                <th class="round_2"> 2nd ROUND </th>
+                <th class="round_1 current"> 1st ROUND </th>
+            </tr>
+            <tr>
+                <td class="current"> March 18-19 </td>
+                <td> March 20-21 </td>
+                <td> March 25-26 </td>
+                <td> March 27-28 </td>
+                <td> April 3 </td>
+                <td> April 5 </td>
+                <td> April 3 </td>
+                <td> March 27-28 </td>
+                <td> March 25-26 </td>
+                <td> March 20-21 </td>
+                <td class="current"> March 18-19 </td>
+            </tr>
+        </table>
+    </div>
+
+<div id="content-wrapper">
+<!-- Bracket -->
+  <div id="bracket">
+    <div id="round1" class="round">
+      <h3>
+        Round One (2014 NCAA Men's Basketball Tournament) 
+      </h3>
+
+      <!-- start region1 -->
+      <div class="region region1">
+        <h4 class="region1 first_region">
+          MIDWEST 
+        </h4>
+        <!-- /#match201 -->
+        <div id="match201" class="match m1">
+          <p class="slot slot1">
+            <span class="seed">1</span><em class="score"></em>
+          </p>
+          <p class="slot slot2">
+            <span class="seed">16</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match202 -->
+        <div id="match202" class="match m2">
+          <p class="slot slot1">
+            <span class="seed">8</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">9</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match203 -->
+        <div id="match203" class="match m3">
+          <p class="slot slot1">
+            <span class="seed">5</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">12</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match204 -->
+        <div id="match204" class="match m4">
+          <p class="slot slot1">
+            <span class="seed">4</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">13</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match205 -->
+        <div id="match205" class="match m5">
+          <p class="slot slot1">
+            <span class="seed">6</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">11</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match206 -->
+        <div id="match206" class="match m6">
+          <p class="slot slot1">
+            <span class="seed">3</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">14</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match207 -->
+        <div id="match207" class="match m7">
+          <p class="slot slot1">
+            <span class="seed">7</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">10</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match208 -->
+        <div id="match208" class="match m8">
+          <p class="slot slot1">
+            <span class="seed">2</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">15</span><em class="score"></em> 
+          </p>
+        </div>
+      </div>
+      <!-- /.region1 -->
+      <!-- start region2 -->
+      <div class="region region2">
+        <h4 class="region2 first_region">
+          West 
+        </h4>
+        <!-- /#match209 -->
+        <div id="match209" class="match m1">
+          <p class="slot slot1">
+            <span class="seed">1</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">16</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match210 -->
+        <div id="match210" class="match m2">
+          <p class="slot slot1">
+            <span class="seed">8</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">9</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- #/match211 -->
+        <div id="match211" class="match m3">
+          <p class="slot slot1">
+            <span class="seed">5</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">12</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- #/match212 -->
+        <div id="match212" class="match m4">
+          <p class="slot slot1">
+            <span class="seed">4</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">13</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- #/match213 -->
+        <div id="match213" class="match m5">
+          <p class="slot slot1">
+            <span class="seed">6</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">11</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match214 -->
+        <div id="match214" class="match m6">
+          <p class="slot slot1">
+            <span class="seed">3</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">14</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!--/#match215-->
+        <div id="match215" class="match m7">
+          <p class="slot slot1">
+            <span class="seed">7</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">10</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!--/#match216-->
+        <div id="match216" class="match m8">
+          <p class="slot slot1">
+            <span class="seed">2</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">15</span><em class="score"></em> 
+          </p>
+        </div>
+      </div>
+      <!-- /.region2 -->
+      <!-- start region3 -->
+      <div class="region region3">
+        <h4 class="region3 first_region">
+          EAST 
+        </h4>
+        
+        <!--/#match217 -->
+        <div id="match217" class="match m1" position_id=217>
+          <p class="slot slot1">
+            <span class="seed">1</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">16</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!--/#match218 -->
+        <div id="match218" class="match m2">
+          <p class="slot slot1">
+            <span class="seed">8</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">9</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- #/match219 -->
+        <div id="match219" class="match m3">
+          <p class="slot slot1">
+            <span class="seed">5</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">12</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!--/#match220 -->
+        <div id="match220" class="match m4">
+          <p class="slot slot1">
+            <span class="seed">4</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">13</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match221 -->
+        <div id="match221" class="match m5">
+          <p class="slot slot1">
+            <span class="seed">6</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">11</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match222 -->
+        <div id="match222" class="match m6">
+          <p class="slot slot1">
+            <span class="seed">3</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">14</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match223 -->
+        <div id="match223" class="match m7">
+          <p class="slot slot1">
+            <span class="seed">7</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">10</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match224 -->
+        <div id="match224" class="match m8">
+          <p class="slot slot1">
+            <span class="seed">2</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">15</span><em class="score"></em> 
+          </p>
+        </div>
+      </div>
+      <!-- /.region3 -->
+      <!-- start region4 -->
+      <div class="region region4">
+        <h4 class="region4 first_region">
+          South 
+        </h4>
+        
+        <!-- /#match225 -->
+        <div id="match225" class="match m1">
+          <p class="slot slot1">
+            <span class="seed">1</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">16</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match226 -->
+        <div id="match226" class="match m2">
+          <p class="slot slot1">
+            <span class="seed">8</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">9</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match227 -->
+        <div id="match227" class="match m3">
+          <p class="slot slot1">
+            <span class="seed">5</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">12</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match228 -->
+        <div id="match228" class="match m4">
+          <p class="slot slot1">
+            <span class="seed">4</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">13</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match229 -->
+        <div id="match229" class="match m5">
+          <p class="slot slot1">
+            <span class="seed">6</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">11</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match230 -->
+        <div id="match230" class="match m6">
+          <p class="slot slot1">
+            <span class="seed">3</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">14</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match231 -->
+        <div id="match231" class="match m7">
+          <p class="slot slot1">
+            <span class="seed">7</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">10</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match232 -->
+        <div id="match232" class="match m8">
+          <p class="slot slot1">
+            <span class="seed">2</span><em class="score"></em> 
+          </p>
+          <p class="slot slot2">
+            <span class="seed">15</span><em class="score"></em> 
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- /.region4 -->
+    <!-- /#round1 -->
+    <div id="round2" class="round">
+      <h3>
+        Round Two (2010 NCAA Men's Basketball Tournament) 
+      </h3>
+      <div class="region region1">
+        <h4 class="region1">
+          MIDWEST 
+        </h4>
+        
+        <!-- /#match301 -->
+        <div id="match301" class="match m1">
+          <p rel="match201" class="slot slot1">
+            <span class="seed">1</span><em class="score"></em> 
+          </p>
+          <p rel="match202" class="slot slot2">
+            <span class="seed">9</span><em class="score"></em> 
+          </p>
+        </div>
+
+        <!-- /#match302 -->
+        <div id="match302" class="match m2">
+          <p rel="match203" class="slot slot1">
+          </p>
+          <p rel="match204" class="slot slot2">
+          </p>
+        </div>
+        
+        <!-- /#match303 -->
+        <div id="match303" class="match m3">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+        
+        <!-- /#match304 -->
+        <div id="match304" class="match m4">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+      </div>
+      <!-- /.region1 -->
+      <div class="region region2">
+        <h4 class="region2">
+          WEST 
+        </h4>
+        
+        <!-- /#match305 -->
+        <div id="match305" class="match m1">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+        
+        <!-- /#match306 -->
+        <div id="match306" class="match m2">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+
+        <!-- /#match307 -->
+        <div id="match307" class="match m3">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+
+        <!-- /#match308 -->
+        <div id="match308" class="match m4">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+      </div>
+      <div class="region region3">
+        <h4 class="region3">
+          East 
+        </h4>
+        
+        <!-- /#match309 -->
+        <div id="match309" class="match m1">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+
+        <!-- /#match310 -->
+        <div id="match310" class="match m2">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+        
+        <!-- #/match311 -->
+        <div id="match311" class="match m3">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+        
+        <!-- #/match312 -->
+        <div id="match312" class="match m4">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+      </div>
+      <!--/.region3-->
+      <div class="region region4">
+        <h4 class="region4">
+          South 
+        </h4>
+
+        <!-- #/match313 -->
+        <div id="match313" class="match m1">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+
+        <!--/#match314-->
+        <div id="match314" class="match m2">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+        
+        <!--/#match315-->
+        <div id="match315" class="match m3">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+        
+        <!--/#match316-->
+        <div id="match316" class="match m4">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+      </div>
+    <!--/.region4-->
+    </div>
+    <div id="round3" class="round">
+      <h3>
+        Round Three (2010 NCAA Men's Basketball Tournament) 
+      </h3>
+      <div class="region region1">
+        <h4 class="region1">
+          Midwest 
+        </h4>
+        
+        <!--/#match401-->
+        <div id="match401" class="match m1">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+        
+        <!--/#match402-->
+        <div id="match402" class="match m2">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+      </div>
+      <!-- /.region1 -->
+      <div class="region region2">
+        <h4 class="region2">
+          West 
+        </h4>
+        
+        <!--/#match403-->
+        <div id="match403" class="match m1">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+        
+        <!--/#match404-->
+        <div id="match404" class="match m2">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+      </div>
+      <div class="region region3">
+        <h4 class="region3">
+          East 
+        </h4>
+        
+        <!--/#match405-->
+        <div id="match405" class="match m1">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+
+        <!--/#match406-->
+        <div id="match406" class="match m2">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+      </div>
+      <!-- /.region3 -->
+      <div class="region region4">
+        <h4 class="region4">
+          South 
+        </h4>
+        
+        <!--/#match407-->
+        <div id="match407" class="match m1">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+
+        <!--/#match408-->
+        <div id="match408" class="match m2">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+      </div>
+    <!-- /.region4 -->
+    </div>
+    <div id="round4" class="round">
+      <h3>
+        Round Four (2010 NCAA Men's Basketball Tournament) 
+      </h3>
+      <div class="region region1">
+        <h4 class="region1">
+          Midwest 
+        </h4>
+        
+        <!--/#match501-->
+        <div id="match501" class="match m1">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+      </div>
+      <!-- /.region1 -->
+      <div class="region region2">
+        <h4 class="region2">
+          West 
+        </h4>
+        
+        <!--/#match502-->
+        <div id="match502" class="match m1">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+      </div>
+      <!-- /.region2 -->
+      <div class="region region3">
+        <h4 class="region3">
+          East 
+        </h4>
+        
+        <!--/#match503-->
+        <div id="match503" class="match m1">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+      </div>
+      <!--/.region3-->
+      <div class="region region4">
+        <h4 class="region4">
+          South 
+        </h4>
+        
+        <!--/#match504-->
+        <div id="match504" class="match m1">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="round5" class="round">
+      <h3>
+        Round Five (2010 NCAA Men's Basketball Tournament) 
+      </h3>
+      <div class="region">
+        
+        <!--/#match601-->
+        <div id="match601" class="match m1">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+        
+        <!--/#match602-->
+        <div id="match602" class="match m2">
+          <p class="slot slot1">
+          </p>
+          <p class="slot slot2">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="round6" class="round">
+      <h3>
+        Round Six (2010 NCAA Men's Basketball Tournament) 
+      </h3>
+      <div class="region">
+        
+        <!--/#match701-->
+        <div id="match701" class="match m1">
+          <p class="slot slot1" id="slot127">
+            <strong><span class="seed">0</span> Winner <em class="score"></em></strong>
+<!-- winner -->
+          </p>
+          <p class="slot slot2" id="slot128">
+            <strike><span class="seed">4</span> Loser <em class="score"></em></strike>
+<!-- loser -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    {% for item in assets.css %}
+        <link rel="stylesheet" href="{{item}}{{version.cache}}"/>
+    {% endfor %}
+{% endblock %}
